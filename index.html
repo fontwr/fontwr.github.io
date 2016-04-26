@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/main.css" charset="utf-8">
+    <!-- <link rel="stylesheet" href="css/fonts.css" charset="utf-8"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="node_modules/milligram/dist/milligram.min.css" media="screen" title="no title" charset="utf-8">
+    <title>fontwr</title>
+  </head>
+  <body>
+    <section>
+      <article class="presentation">
+        <h1 class="welcome">Welcome to <strong>fontwr</strong>, a font manager for the web</h1>
+        <img src="img/fontwr.svg" alt="fontwr Logo" class="logo" />
+        <div class="github-stats">
+          <a class="github-button" href="https://github.com/raphaklaus/fontwr" data-icon="octicon-star" data-style="mega" data-count-href="/raphaklaus/fontwr/stargazers" data-count-api="/repos/raphaklaus/fontwr#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star raphaklaus/fontwr on GitHub">Star</a>
+          <a class="github-button" href="https://github.com/raphaklaus/fontwr" data-icon="octicon-eye" data-style="mega" data-count-href="/raphaklaus/fontwr/watchers" data-count-api="/repos/raphaklaus/fontwr#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch raphaklaus/fontwr on GitHub">Watch</a>
+          <a class="github-button" href="https://github.com/raphaklaus/fontwr/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/raphaklaus/fontwr/network" data-count-api="/repos/raphaklaus/fontwr#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork raphaklaus/fontwr on GitHub">Fork</a>
+        </div>
+        <!-- <img src="img/logo.png" alt="Logo" class="logo"/> -->
+      </article>
+      <article class="installing">
+        <h2>Installing</h2>
+        <p>
+          <code>
+            $ npm install fontwr -g
+          </code>
+        </p>
+      </article>
+      <article class="">
+        <h2>Usage</h2>
+        <p>
+          <code>
+            $ fontwr get roboto
+          </code>
+          Fetch all Roboto fonts family, prompt user what fonts to be downloaded and what formats.
+        </p>
+        <p>
+          <code>
+            $ fontwr get opensans -g
+          </code>
+          Install the font into system's font directory. Doesn't convert and generate font-face.
+        </p>
+        <p>
+          <code>
+            $ fontwr list
+          </code>
+          List all available fonts.
+        </p>
+        <h4>It's easy! See a gif!</h4>
+        <img src="img/fontwr-gif.gif" alt="fontwr working in a terminal" class="working-gif"/>
+      </article>
+    </section>
+    <!-- Place this tag right after the last button or just before your close body tag. -->
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>

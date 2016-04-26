@@ -1,0 +1,48 @@
+.welcome {
+  text-align: center;
+}
+
+article {
+  margin: 50px;
+}
+
+.logo{
+  margin: 0 auto 20px auto;
+  display: block;
+  /*display: flex;*/
+  /*justify-content: center;*/
+}
+
+.working-gif {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.github-stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+}
+
+@media (max-width: 40rem) {
+  .github-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+  }
+
+  .working-gif{
+    width: 100%;
+    height: auto;
+  }
+
+  .logo{
+    width: 90%;
+    height: auto;
+  }
+}
