@@ -15,7 +15,7 @@ article {
 
 .working-gif {
   display: block;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 20px auto;
   width: 100%;
   height: auto;
 }
@@ -23,7 +23,7 @@ article {
 .github-stats{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   height: auto;
 }
 

@@ -21,6 +21,21 @@
         </div>
         <!-- <img src="img/logo.png" alt="Logo" class="logo"/> -->
       </article>
+      <article class="about">
+        <h2>What is it?</h2>
+        <p>
+          <strong>fontwr</strong> is a tool that helps front-end developers
+          download fonts, convert them, and transform into font-face!
+          There are more than <strong>800 fonts</strong> available in
+          <a href="https://github.com/raphaklaus/fontwr-fonts/" target="_blank">our repository</a> and growing!
+        </p>
+        <p>
+          <code>fontwr.json</code> hold all font settings, such as font family,
+          font-style, and formats (woff2, woff, eot, ttf). If you download a project, just run
+          <code>fontwr install</code> to get all fonts. Whether is a new project, just run commands
+          in your terminal to setup everything!
+        </p>
+      </article>
       <article class="installing">
         <h2>Installing</h2>
         <p>
@@ -51,6 +66,31 @@
         </p>
         <h4>It's easy! See a gif!</h4>
         <img src="img/fontwr-gif.gif" alt="fontwr working in a terminal" class="working-gif"/>
+        <h4>fontwr.json format</h4>
+        <pre><code>{
+  "fonts": {
+    "Roboto-Regular": {
+      "family": "roboto",
+      "format": [".woff2", ".woff", ".eot"]
+    },
+    "OpenSans-Light": {
+      "family": "opensans",
+      "format": [".woff2", ".woff"]
+    }
+  },
+  "systemFonts":{
+    "Nexa-Light": {
+      "format": [".woff2"]
+    },
+    "Comic Sans MS": {
+      "format": [".woff2"]
+    }
+  },
+  "output": {
+    "fonts": "fonts/",
+    "fontface": "css/"
+  }
+}</code></pre>
       </article>
     </section>
     <!-- Place this tag right after the last button or just before your close body tag. -->
